@@ -1,0 +1,7 @@
+git add . -> adiciona todos os arquivos para sua arvore de diffs
+git commit -m "mensagem" -> adiciona uma mensagem para sua nova atualização
+git push --set-upstream origin nome-da-branch -> primeiro push
+depois para os proximos apenas -> git push
+
+para criar uma branch usamos o seguinte comando
+git checkout -b nomeDaBranch
