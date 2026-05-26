@@ -5,3 +5,9 @@ depois para os proximos apenas -> git push
 
 para criar uma branch usamos o seguinte comando
 git checkout -b nomeDaBranch
+
+ssh-keygen -t ed25519 -C "gabryel.p.baicoa@gmail.com"
+
+cat ~/.ssh/id_ed25519.pub | clip
+
+git config --global user.email "gabryel.p.baicoa@gmail.com"
